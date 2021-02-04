@@ -1,6 +1,9 @@
 [Dolphin]
 GroupedSorting=true
 PreviewsShown=true
-Timestamp=2021,2,2,14,23,49
+Timestamp=2021,2,4,20,39,55
 Version=3
 ViewMode=1
+
+[Settings]
+HiddenFilesShown=true
