@@ -1,4 +1,5 @@
-[![САО РАН](pic/SAO_logo_grad_sm.png)](https://www.sao.ru) # Телескоп Цейсс-1000
+[![САО РАН](pic/SAO_logo_grad_sm.png)](https://www.sao.ru) 
+# Телескоп Цейсс-1000
 
 ![Верхняя научная площадка САО РАН и телескоп Цейсс-1000](pic/VNP_z1000.jpg)
 
