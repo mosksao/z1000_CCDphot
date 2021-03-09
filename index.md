@@ -11,7 +11,7 @@
 (фокусное расстояние 13.3 м) и фокус кудэ (36.5 м).
 Телескоп работает с 1989 года.
 [Оснащён](https://www.sao.ru/Doc-k8/Science/Public/Bulletin/Vol75/N4/ASPB547.pdf)
-штатными приборами: 
+штатными приборами
 [ПЗС-фотометром, спектрографом UAGS, спектрографом фокуса куде (CEGS)](https://www.sao.ru/Doc-k8/Telescopes/small/instrum.html), 
 а также авторскими MAGIC и MaNGaL.
 
