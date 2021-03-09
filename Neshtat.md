@@ -1,6 +1,6 @@
 # Руководство наблюдений с ПЗС-фотометром телескопа Цейсс-1000
 
-## Особенности прибора/телескопа и нештатные ситуации
+## Управление питанием, нештатные ситуации, меню Dina System
 
 [Далее: дополнительная информация](AddInfo.md)
 
@@ -110,6 +110,118 @@
 
 **Одновременное открытие забрала и движение купола запрещены!**
 
+
+### Меню и настройки Dina System
+
+Камера ПЗС-фотометра может использоваться для спектроскопических наблюдений с приборами UAGS и CEGS,
+при этом настройки Dina System могут быть изменены. Для их восстановления можно воспользоваться
+приведёнными снимками различных пунктов меню. 
+Подробное описание можно найти в последнем пункте меню помощь, а также в [документации](add/DSman.pdf),
+предоставленной [Лабораторией перспективных разработок САО РАН](https://www.sao.ru/hq/adlab).
+
+
+
+
+#### Первые пункты меню: File, Camera, Image, View, Process
+
+
+
+
+![File](menu/1File.png)
+
+*В меню File имеются пункты открыть изображение Image, сохранить Save As (используется, если нужно спасти перезаписанный кадр),*
+*просмотр содержимого шапки изображения FITS Header, выход из программы Exit и др. *
+
+![Camera](menu/2aCamera_tests.png)
+
+*В меню Camera часто используются пункты инициализации камеры при зависании прибора Init Camera (см. разделы*
+*Подготовка системы управления Dina System [Подготовка к наблюдениям](Pre.md) и [Тестирование работы фотометра](TestCCDphot.md)),*
+*Create Log File для создания лога ночи (см. [Завершение наблюдений](Final.md)), смену содержимого шапки FITS-файла*
+*Change Current FITS Header (см. [Наведение телескопа и получение изображений в Dina System](SlewExp.md)).*
+
+![Image](menu/3Image.png)
+
+![View](menu/4View.png)
+
+![Process](menu/5Process.png)
+
+*Пункты меню Process доступны из контекстного меню, хорошо описаны в подразделе Быстрый анализ изображений в Dina System* 
+*раздела [Наведение телескопа и получение изображений в Dina System](SlewExp.md), а также в Help программы.*
+
+#### Меню настроек Settings
+
+Выбор пункта меню Settings позволяет открыть окно с настройками программы, в котором имеется несколько вкладок.
+
+![Settings](menu/6Settings.png)
+
+![Settings:General](menu/6aSettings_General.png)
+
+*Наиболее часто используемая из вкладок: General. Здесь задаются пути к рабочим директориям и параметры имени создаваемого файла.*
+
+![Settings:Camera.](menu/6bSettings_Camera.png)
+
+![Settings:Image](menu/6cSettings_Image.png)
+
+![Settings:Histogram](menu/6dSettings_Histogram.png)
+
+![Settings:LineProfil](menu/6eSettingsLineProfile.png)
+
+![Settings:CCDServer](menu/6fSettingsCCDServer.png)
+
+![Settings:PopUpMenu](menu/6gSettingsPopUpMenu.png)
+
+#### Палитры Palette
+
+В Dina System можно задать различные палитры отображения получаемых кадров,
+наиболее часто используемой из которых являются INVERS (чёрно-белый негатив).
+
+
+![Palette_BBGRY](menu/7aPalette_BBGRY.png)
+
+![Palette_BBGYR](menu/7bPalette_BBGYR.png)
+
+![Palette_BBMR](menu/7cPalette_BBMR.png)
+
+![Palette_BBW](menu/7dPalette_BBW.png)
+
+![Palette_BGBMW](menu/7ePalette_BGBMW.png) 
+
+![Palette_BGW](menu/7fPalette_BGW.png)
+
+![Palette_BRW](menu/7gPalette_BRW.png)
+
+![Palette_BW](menu/7hPalette_BW.png)
+
+![Palette_BWR](menu/7iPalette_BWR.png)
+
+![Palette_INVERS](menu/7jPalette_INVERS.png)
+
+![Palette_LINEAR](menu/7kPalette_LINEAR.png)
+
+![Palette_RGB](menu/7lPalette_RGB.png)
+
+
+#### Остальные пункты меню: Macro, Client, Window, Help
+
+
+![Macro](menu/8Macro.png)
+
+*В программе имеется коммандная строка и можно использовать пакетный режим получения изображений.*
+*Синтаксис: восклицательный знак, имя макроса, значения экспозиций в каждом фильтре, количество циклов, напр.:*
+
+*\! bvr 300 240 180 5 *
+
+![Macro:RunMacro](menu/8bMacro_RunMacro.png)
+
+![Client](menu/9Client.png)
+
+![Window](menu/10_Window.png)
+
+![Help](menu/11_Help.png)
+
+![HelpCont](menu/11b_HelpCont.png)
+
+*В программе имеется исчерпывающее описание функций и используемой математики, открываемое в меню Help.*
 
 [Далее: дополнительная информация](AddInfo.md)
 
