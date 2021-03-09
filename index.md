@@ -1,4 +1,4 @@
-[![САО РАН](pic/SAO_logoALL2.png)](https://www.sao.ru) 
+[![САО РАН](pic/SAO_logoALL3.png)](https://www.sao.ru) 
 
 # Телескоп Цейсс-1000
 
