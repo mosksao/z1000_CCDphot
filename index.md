@@ -13,7 +13,7 @@
 [Оснащён](https://www.sao.ru/Doc-k8/Science/Public/Bulletin/Vol75/N4/ASPB547.pdf)
 штатными приборами
 [ПЗС-фотометром, спектрографом UAGS, спектрографом фокуса куде (CEGS)](https://www.sao.ru/Doc-k8/Telescopes/small/instrum.html), 
-а также авторскими MAGIC и MaNGaL.
+а также авторскими [MaNGaL](https://relay.sao.ru/hq/lsfvo/devices/mangal/) и MAGIC.
 
 ## Руководство наблюдений с ПЗС-фотометром телескопа Цейсс-1000
 

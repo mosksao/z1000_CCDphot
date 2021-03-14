@@ -18,7 +18,7 @@
 
 3. Запустить с рабочего стола zobs иконку программы dina filters. Откроется программа Dina System с настройками фотометрических наблюдений
 
-![Окно программы Dina System.](pic/DinaSys.png)
+![Окно программы Dina System.](pic/DinaSys_v2.png)
 
 4. Инициализировать камеру. Меню Camera --> Init Camera (или Ctrl + I). 
 В блоке Information окошка Exposure Control убедиться, что инициализация прошла корректно и появилось сообщение  "Initialization has completed successfully".
